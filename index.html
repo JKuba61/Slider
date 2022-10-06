@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/245431f389.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="slider">
+        <div class="slider__box">
+            <img src="https://cdn.pixabay.com/photo/2022/01/23/16/06/dog-6961236_960_720.jpg" alt="Pieseł"
+                class="slider__box__img">
+            <img src="https://cdn.pixabay.com/photo/2022/07/12/20/15/cavia-7318119_960_720.jpg" alt="świnok morski"
+                class="slider__box__img">
+            <img src="https://cdn.pixabay.com/photo/2016/08/22/22/22/cat-1613086_960_720.jpg" alt="kotełeł"
+                class="slider__box__img">
+            <img src="https://cdn.pixabay.com/photo/2018/02/08/16/09/dog-3139757_960_720.jpg" alt="husky Pieseł"
+                class="slider__box__img">
+        </div>
+        <button class="slider__btn slider__btn--left ">
+            <span class="slider__btn__span">
+                <i class="fas fa-arrow-left"></i>
+            </span>
+        </button>
+
+        <button class="slider__btn slider__btn--right ">
+            <span class="slider__btn__span">
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </button>
+        <div class="slider__nav">
+            <button data-setting="index" data-index="0" class="slider__nav__btn active"></button>
+            <button data-setting="index" data-index="1" class="slider__nav__btn"></button>
+            <button data-setting="index" data-index="2" class="slider__nav__btn"></button>
+            <button data-setting="index" data-index="3" class="slider__nav__btn"></button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
